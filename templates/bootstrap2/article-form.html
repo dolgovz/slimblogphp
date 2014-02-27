@@ -1,0 +1,23 @@
+
+<p>
+<form method="post" action="">
+
+    <p> Url /name <br><input name="slug" type="text" value="<?php echo htmlspecialchars($article['meta']['slug']) ?>">
+
+     <p> Title <br><input name="title" type="text" value="<?php echo htmlspecialchars($article['meta']['title']) ?>">
+
+     <p> Date <br><input name="date" type="text" value="<?php echo htmlspecialchars($article['meta']['date']) ?>">
+
+     <p> Author	<br> <input name="author" type="text" value="<?php echo htmlspecialchars($article['meta']['author']) ?>">
+
+    <p> Tag	<br> <input name="tag" type="text" value="<?php echo htmlspecialchars($article['meta']['tag']) ?>">
+
+     <p> Content<br> <textarea name="content" cols="48" rows="10"><?php echo htmlspecialchars($article['content']) ?>
+
+
+     </textarea><br>
+
+        <input type="submit"><input type="reset">
+</form>
+
+
